@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 768px) {
+            /* Navbar Section Responsive CSS */
+        .second-nav a{
+            font-size: 16px;
+        }
+        .post-job-btn,
+        .first-left-nav-wrapper{
+            display: none;
+        }  
+
+}
+  
+@media screen and (max-width: 576px) {
+    /* Navbar Section Responsive CSS */
+    .second-nav{
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+        margin: 0;
+    }
+    .second-nav a{
+        display: block;
+        width: 100%;
+        border: 1px solid #2d3e39;
+        text-align: center;
+    }    
+    .post-job-btn{
+        margin-top: 0px;
+    }
+ }
+
+@media screen and (max-width: 400px) {
+    /* Navbar Section Responsive CSS */
+    .h-logo,
+    .h-logo img{
+        width: 120px;
+        height: 30px;
+    }
+    .first-left-nav,
+    .first-right-nav{
+        gap: 5px;
+    }
+    .first-left-nav a,
+    .first-right-nav a,
+    .second-nav a{
+        font-size: 12px;
+    }
+ }
+

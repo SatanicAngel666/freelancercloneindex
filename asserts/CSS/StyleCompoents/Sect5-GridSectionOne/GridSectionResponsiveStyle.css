@@ -1,0 +1,24 @@
+@media screen and (max-width: 960px) {
+    /* Grid Section Responsive CSS */
+.grid-item:hover .grid-card-desc{
+        display: none;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+/* Grid Section Responsive CSS */
+.grid-item:nth-child(1){
+    grid-column: 1/-1;
+}
+.grid-container2{
+    display: none;
+}
+.grid-card-desc{
+display: none!important;
+}
+
+}
+  

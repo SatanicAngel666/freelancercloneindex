@@ -1,0 +1,94 @@
+
+  /* Catagories Section */
+
+
+  .catagories-section{
+    background-color: var(--website-bg-color);
+  }
+
+  .catagories{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 16px 6px;
+    opacity: 1;
+    display: flex;
+    height: 100%; 
+  }
+  .catagories-sideAnimCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+  #catagories-vertical-line,#catagories-vertical-line2{
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgb(25,110,157) 40%,rgb(41,178,254) 100%);
+    transform: translateX(-70%);
+    border-radius: 10px;
+    transition: height 0.3s ease-in-out;
+  }
+  #catagories-vertical-line{
+   height: 114px;
+  }
+  #catagories-vertical-line2{
+    margin-top: 10px;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,.5) 0%,rgb(25,110,157) 40%,rgb(41,178,254) 100%);
+  }
+  .catagories-img-logo{
+    background-image: url("../../../imgs/AnimatedSidebar_Logo/home-animated-scroll.3d622618ad1e0fcd.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    object-position: center;
+    position: relative;
+    content: "";
+    height: 60px;
+    width: 64px;
+    padding: 20px 0;
+  }
+  .catagories-container{
+    display: flex;
+    gap: 12px;
+  }
+  .catagories-column{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+    padding: 30px 0px;
+    flex-basis: 20%;
+  }
+  .catagories-column a{
+    text-decoration: none;
+    color: white;
+    font-size: clamp(16px,1vw,20px);
+    margin: 16px 0px;
+  }
+  .catagories-column a:hover{
+    color:#1772eb;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .catagories-column:nth-child(1){
+    flex-basis: 40%;
+  }
+  .catagories-column:nth-child(5) a:last-child,.catagories-column:nth-child(3) a:last-child{
+    color:#e60278;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .catagories-column:nth-child(3) a:last-child{
+    display: none;
+  }
+  .catagories-heading{
+    color: white;
+    font-size: clamp(32px,5vw,48px);
+    padding: 16px 0px;
+    font-weight: bolder;
+  }
+  .catagories-heading span{
+    color: #e60278;
+  }
+/* Catagories Section Ends Here */
+
